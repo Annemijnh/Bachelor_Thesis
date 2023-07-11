@@ -270,7 +270,6 @@ ggplot(var_imp_RF_pers, aes(x=Overall, y=reorder(names,sum))) +
   theme(legend.position="bottom")
 dev.off()
 
-save.image("C:/Users/annem/OneDrive - University of Twente/Bacheloropdracht/Data/RF_pers_models.RData")
 write.csv(metrics_629_RF, "metrics_629_RF.csv")
 write.csv(metrics_708_RF,"metrics_708_RF.csv")
 write.csv(metrics_688_RF, "metrics_688_RF.csv")
